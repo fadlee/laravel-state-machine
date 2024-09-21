@@ -15,7 +15,7 @@ This project implements a flexible and robust state transition system for Larave
 
 1. Clone this repository to your local machine:
    ```
-   git clone https://github.com/yourusername/laravel-state-transitions.git
+   git clone https://github.com/fadlee/laravel-state-machine.git
    ```
 
 2. Install the dependencies:
