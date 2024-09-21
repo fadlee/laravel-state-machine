@@ -83,7 +83,7 @@ trait HasStateTransitions
             ->toArray();
     }
 
-    public function transitionHistories(): MorphMany
+    public function transitionLogs(): MorphMany
     {
         /** @var \Illuminate\Database\Eloquent\Model $this */
         return $this->morphMany(StateTransitionLog::class, 'model');
